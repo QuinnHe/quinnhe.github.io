@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QuinnHe</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+  <!-- Uses a transparent header that draws on top of the layout's background -->
+  <style>
+  .demo-layout-transparent {
+    background: url('./assets/bg.jpg') center / cover;
+  }
+  .demo-layout-transparent .mdl-layout__header,
+  .demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+  your background is light. */
+  color: white;
+}
+</style>
+
+
+<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--transparent">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">MENU</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="index.html">HOME</a>
+        <a class="mdl-navigation__link" href="works.html">SELECTED WORKS</a>
+        <a class="mdl-navigation__link" href="about.html">ABOUT</a>
+        <a class="mdl-navigation__link" href="cv.html">CV</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">MENU</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="index.html">HOME</a>
+      <a class="mdl-navigation__link" href="works.html">SELECTED WORKS</a>
+      <a class="mdl-navigation__link" href="about.html">ABOUT</a>
+      <a class="mdl-navigation__link" href="cv.html">CV</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content">
+      <div class="full-page">
+        <h1 style="color:white; font-size: 300%; text-align: center;">Han</h1>
+        <h6 style="color: white; text-align: center;">
+          Group Project Spring 2018<br>
+          Tags: Responsive Web, Interactive, Chinese Culture<br>
+          Toolkits: p5.js, HTML, CSS
+        </h6>
+        <div class="grid-desc">
+          <p style="color:white;font-size: 120%;line-height: 2;">Han Fu(Han Clothes) are traditional clothes for Chinese people in the past, which also has some cultural meaning in it. But few people know it nowadays. Therefore, We want to use the web as an approach to let more people feel the beauty of Han Fu.</p>
+        </div>
+        <div class="grid-desc">
+          <br>
+          <h3>Process:</h3>
+          <p style="color:white;font-size: 120%;line-height: 2;">I. Intro Page<br>
+            <img width="100%" src="assets/han1.png">
+            <br>
+            Before everything begins, we have an intro page showing users the title of our project. Also, this page leaves the user the first impression of the website: they will kind of get the design style of the whole website, which is pretty Chinese and simple.
+            <br>
+            II. Home<br>
+            <img width="100%" src="assets/han.gif">
+            This page builds an interaction that users can swipe the lantern to view six different styles of Hanfu. On the left side, is the name of the Hanfu. Also, an instruction “Press Space to enter design page”. On the right side, is the basic knowledge of this specific type of Hanfu.
+            <br>
+            III. Design<br>
+            <img width="100%" src="assets/han2.gif">
+<!--             <br>
+            <br>
+            <img width="100%" src="assets/han3.png">
+            <br>
+            <br>
+            <img width="100%" src="assets/han4.png"> -->
+            <br>
+            <br>
+            To make user focus more on the Hanfu itself, we make the GUI as simple as possible. The user can change color and add pattern by dragging and clicking.
+            <br>
+            <br>
+            The pattern can move, by P5.js, we can easily create moving patterns and drag the whole pgraphic to the position we want.
+            <br>
+            IV. History<br>
+            <img width="100%" src="assets/han5.png">
+            To make users have a general idea of the history of Hanfu, we have a history page. No matter for Chinese users or foreign users, knowing background knowledge helps them to understand Hanfu better.
+            <br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

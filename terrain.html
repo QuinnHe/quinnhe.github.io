@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QuinnHe</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+  <!-- Uses a transparent header that draws on top of the layout's background -->
+  <style>
+  .demo-layout-transparent {
+    background: url('./assets/bg.jpg') center / cover;
+  }
+  .demo-layout-transparent .mdl-layout__header,
+  .demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+  your background is light. */
+  color: white;
+}
+</style>
+
+
+<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--transparent">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">MENU</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="index.html">HOME</a>
+        <a class="mdl-navigation__link" href="works.html">SELECTED WORKS</a>
+        <a class="mdl-navigation__link" href="about.html">ABOUT</a>
+        <a class="mdl-navigation__link" href="cv.html">CV</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">MENU</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="index.html">HOME</a>
+      <a class="mdl-navigation__link" href="works.html">SELECTED WORKS</a>
+      <a class="mdl-navigation__link" href="about.html">ABOUT</a>
+      <a class="mdl-navigation__link" href="cv.html">CV</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content">
+      <div class="full-page">
+        <h1 style="color:white; font-size: 300%; text-align: center;">Terrain</h1>
+        <h6 style="color: white; text-align: center;">
+          Individual Project Fall 2017<br>
+          Tags: Programming artwork, Interaction, 3D<br>
+          Toolkits: openFrameworks, p5.js, projector
+        </h6>
+        <div class="grid-desc">
+          <p style="color:white;font-size: 120%;line-height: 2;">「Terrain」 is about the reproduction of my childhood memories, creating a sense of unrealistic. The project consists of four scenes: Mountains, Moon, Sunset, Crystal ball.</p>
+        </div>
+        <div class="viedo-wrap">
+          <iframe width="498" height="510" src="https://www.youtube.com/embed/xSLTX8ufzgw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="grid-desc">
+          <br>
+          <p style="color:white;font-size: 120%;line-height: 2;">
+            Particles are the best for constructing memory. Especially, people may add their own imagination to what really happened in the past. With countless particles, I combine huge amounts of unrealistic elements with realistic scenes to convey my personal emotion towards my childhood.
+            <br>
+            <br>
+            Scene I. Mountains<br>
+            My grandparents love Chinese paintings. Based on my memory of the old paintings in my house, I create a scene with mounatins and fog floating around, using particles to imiate the feeling of ink and brush.
+            <br>
+            <br>
+            Scene II. Moon<br>
+            There's a poem that everytime I recite it, I feel myself back to the classroom of my primary school: <br>
+            "As the bright moon shines over the sea (海上生明月),<br>
+            From far away you share this moment with me (天涯共此时)."
+            <br>
+            <br>
+            Scene III. Sunset<br>
+            My favourite book is The Little Prince. Image the little prince standing under a giant sun in the dessert, everything is between unreality and reality.
+            <br>
+            <br>
+            Scene IV. Crystall Ball<br>
+            When I was young, my top wish is to stand under a giant Christmas tree and meet someone I love. Looking into the crystall ball, I put all my imagination towards unknown romance into that little tree.
+            <br>
+          </p>
+        </div>
+
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="assets/terrain1.gif" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="assets/terrain2.gif" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="assets/terrain3.gif" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="assets/terrain4.gif" alt="Fourth slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="grid-desc">
+          <br>
+          <br>
+          <br>
+          <h2 style="color:white;font-size: 200%;">Selected Press</h2>
+          <br>
+          <a href="http://sh.house.163.com/18/0207/11/DA1QD7QO00078746.html" style="font-size: 120%;">1. "Inifinite Newborn comming to the MIXC!" NetEase News</a>
+          <br>
+          <br>
+          <a href="http://sh.house.qq.com/a/20180207/016092.htm" style="font-size: 120%;">2. "Inifinite Newborn Art Exhibition is comming!" Tencent News</a>
+          <br>
+          <br>
+          <a href="http://www.sohu.com/a/221498935_677585" style="font-size: 120%;">3. "Inifinite, infinite." Sohu News</a>
+          <br>
+          <br>
+          <br>
+        </div>
+      </main>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+  </html>
